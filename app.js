@@ -2,7 +2,7 @@
 
 //Start off by creating/naming function
 
-var data = [10, 4, -2, 8, 2, -9] //Create array
+let data = [10, 4, -2, 8, 2, -9] //Create array
 
 data = data.filter(function(x){ // Create function to only show numbers over -1
     return x > -1
